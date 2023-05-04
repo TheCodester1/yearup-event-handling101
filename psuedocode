@@ -1,0 +1,36 @@
+/* Goal: Write a function which takes a full name as input 
+and displays a string which shows the first name and last 
+name separately
+
+Example fullName: "Karmon Gibson"
+Example fullName: "Andy Ho"
+
+Hints given: Maybe use indexOf() to find the location of 
+the SPACE character in the string? Can I use that to find 
+the firsst and last name separately?
+
+ 0123456
+"Andy Ho"
+
+1. Write an empty function and name it 
+"parseAndDisplayName".
+2. Give the function a parameter named "fullName".
+3. Use `let spacePosition = fullName.indexOf(" ")`
+    - "index" is position/location of a character in a 
+    string
+4. Get the substring to the left of the spacePosition
+    - Use a built-in string function to get the substring 
+    starting at position (index) 0 up to but not including 
+    the spacePosition.
+    - Try `substring()` or `slice()`
+    - Assign this substring to a variable named "lastName"
+5. Get the substring to the right of the spacePosition 
+    -  Use a built-in string function to get the substring 
+    starting at the `spacePosition +1` up to the end of the 
+    string.
+    - Assign this substring to a variable name "lastName"
+6. Use `console.log()` to display the first name and last 
+name on the console.
+    - Once working, consider displaying these on the PAGE 
+    for the user, using innerHTML
+*/
